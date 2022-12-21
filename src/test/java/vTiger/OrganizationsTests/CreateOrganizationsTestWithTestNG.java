@@ -35,7 +35,7 @@ public void createOrgTest() throws EncryptedDocumentException, IOException
 	//Step: 4 - Validate
 	OrganizationInfoPage oip=new OrganizationInfoPage(driver);
 	String HEADER = oip.getOrganizationHeaderText();
-	//Assert.fail();
+	Assert.fail();
 	/*if(HEADER.contains(ORGNAME))
 	{
 		System.out.println(HEADER);
